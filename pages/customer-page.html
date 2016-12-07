@@ -1,0 +1,30 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+
+
+<dom-module id="customer-page" noscript>
+    <template>
+		<paper-card 
+		heading="Card Title"
+		elevation = "3"
+		style="margin-top: 10%;
+    			min-width: 60%;
+   				margin-left: 25%;"
+		>
+		  <div class="card-content">Some content</div>
+		  <div class="card-actions">
+		    <paper-button>Some action</paper-button>
+		  </div>
+		</paper-card>
+
+        
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: 'customer-page'
+    });
+</script>
+
